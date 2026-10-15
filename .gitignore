@@ -1,1 +1,25 @@
 .obsidian/workspace.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+private/
+Приватное/
+*.secret
+*.log
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+.obsidian/workspace-mobile.json
+copilot/copilot-conversations/
+/copilot/
+/90 — Приватное/
+*.7z
+*парол*.txt
+*password*.txt
