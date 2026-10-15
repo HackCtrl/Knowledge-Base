@@ -1,0 +1,20 @@
+00:01:55	ivan:	Всем добрый вечер
+00:02:24	MLDekterev:	Всем, привет! :-)
+00:09:55	ivan:	++
+00:10:05	MLDekterev:	++
+00:15:05	SkillFactory:	https://drive.google.com/open?id=1aP_durRsot-rBHKpwF8Q5xw0NZX7cX6C
+00:47:20	ivan:	наверное в system32 отчет
+01:04:38	Евгений:	Есть ли русскоязычная документация?
+01:04:43	SkillFactory:	https://www.rsaconference.com/writable/presentations/file_upload/hta-w05-tracking_hackers_on_your_network_with_sysinternals_sysmon.pdf
+01:24:48	Debyr:	драйвер активатора?)))
+01:27:57	Евгений:	Можно ли с sysmon мониторить файловую шару? Создание, удаление, редактирование файлов. В логе время, пользователь, действие.
+01:29:29	Евгений:	То есть удаление и изменение файлов не видит?
+01:30:18	Евгений:	Понятно. Надо пробовать.
+01:45:33	ivan:	Благодарю
+01:45:39	Евгений:	До свидания.
+
+
+_____
+Cкачивай платные курсы, тренинги, книги и другие материалы -бесплатно!
+-Hа нашем сайте: https://infosklad.org
+-Hа нашем Telegram канале: https://t.me/infoskladorg
