@@ -393,6 +393,13 @@
           "binarySource": "managed",
           "probeSessionId": "ses_eb0aa9914ffe0nAyaRbEK7jV3L"
         }
+      },
+      "8e1b3aea-33d8-4389-a88c-b5cd22f122ee": {
+        "codex": {
+          "binaryPath": "C:\\Users\\Кирилл\\.obsidian-copilot\\codex\\2.2.2\\codex-acp.exe",
+          "binaryVersion": "2.2.2",
+          "binarySource": "managed"
+        }
       }
     }
   },
@@ -503,36 +510,6 @@
       },
       "configuredModelId": "57a35bc2-0085-408f-8489-1dfdcb4ddcf5",
       "configuredAt": 1792336487820
-    },
-    {
-      "providerId": "23afcbfa-fa03-4462-b072-10bce027f096",
-      "info": {
-        "id": "gpt-5.4-mini",
-        "displayName": "5.4 Mini",
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 400000,
-          "output": 128000,
-          "input": 272000
-        },
-        "reasoning": true,
-        "toolCall": true,
-        "releaseDate": "2026-03-19",
-        "cost": {
-          "input": 0.75,
-          "output": 4.5
-        }
-      },
-      "configuredModelId": "d9893f59-2a3d-4207-b2c0-d22e383242e7",
-      "configuredAt": 1792337772783
     },
     {
       "providerId": "23afcbfa-fa03-4462-b072-10bce027f096",
@@ -765,38 +742,6 @@
       "configuredAt": 1792337772785
     },
     {
-      "providerId": "23afcbfa-fa03-4462-b072-10bce027f096",
-      "info": {
-        "id": "gpt-5.5",
-        "displayName": "5.5",
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "pdf"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 1050000,
-          "output": 128000,
-          "input": 922000
-        },
-        "reasoning": true,
-        "toolCall": true,
-        "releaseDate": "2026-04-23",
-        "cost": {
-          "input": 5,
-          "output": 30
-        },
-        "description": "Legacy coding model."
-      },
-      "configuredModelId": "13c1fb53-8c8c-4c6d-9893-fa35f46b4b53",
-      "configuredAt": 1792583685332
-    },
-    {
       "providerId": "4ec3cf7f-f6ed-4f62-bf11-233e4fb5c39d",
       "info": {
         "id": "opencode/minimax-m3.1-flash-free",
@@ -815,7 +760,6 @@
     },
     "codex": {
       "enabledModels": [
-        "d9893f59-2a3d-4207-b2c0-d22e383242e7",
         "86c82798-9b96-4042-a26c-2c032c9b7bd0",
         "93f160c6-b51e-49de-84b4-598b3b0a463c",
         "df9180f7-1a01-4a9d-8692-30f6a3a49b99",

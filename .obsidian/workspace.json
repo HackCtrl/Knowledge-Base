@@ -183,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.23046875
+    "width": 373.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +197,18 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "154fa845a86cd4ff",
+  "active": "9c4dc059af120200",
   "lastOpenFiles": [
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "copilot/skills/copilot-fetch-x/fetch-x.ps1",
+    "copilot/skills/copilot-fetch-x/fetch-x.cmd",
+    "copilot/skills/copilot-fetch-x/fetch-x.sh",
+    "copilot/skills/copilot-fetch-x",
+    "copilot/skills/copilot-youtube-transcript/SKILL.md",
+    "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1",
+    "copilot/skills/copilot-youtube-transcript/youtube-transcript.cmd",
+    "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
+    "copilot/skills/copilot-youtube-transcript",
     "20 — Обучение/Активные курсы/00 — Двухдневное восстановление знаний/00 — Дашборд двухдневного повторения.md",
     "20 — Обучение/Активные курсы/00 — Двухдневное восстановление знаний/01 — День 1 — Специалист по кибербезопасности.md",
     "20 — Обучение/Активные курсы/Специалист по кибербезопасности/Модуль 4. Проникновение в инфраструктуру/1. Думай как хакер.md",
@@ -211,16 +221,6 @@
     "20 — Обучение/Активные курсы/Компьютерные сети на примерах - Просто о Сложном (по книге)/ЧАСТЬ 1. Основные сетевые термины и понятия/ГЛАВА 7. О БЕЗОПАСНОСТИ СЕТИ/Вопросы и задания к главе.md",
     "20 — Обучение/Активные курсы/00 — Двухдневное восстановление знаний",
     "copilot/copilot-conversations/agent__Изучи_структуру_текущего_хранилища_Obsidian@20261018_183656.md",
-    "copilot/skills/copilot-fetch-x/SKILL.md",
-    "copilot/skills/copilot-fetch-x/fetch-x.ps1",
-    "copilot/skills/copilot-fetch-x/fetch-x.cmd",
-    "copilot/skills/copilot-fetch-x/fetch-x.sh",
-    "copilot/skills/copilot-fetch-x",
-    "copilot/skills/copilot-youtube-transcript/SKILL.md",
-    "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1",
-    "copilot/skills/copilot-youtube-transcript/youtube-transcript.cmd",
-    "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
-    "copilot/skills/copilot-youtube-transcript",
     "20 — Обучение/Активные курсы/Компьютерные сети на примерах - Просто о Сложном (по книге)/ЧАСТЬ 1. Основные сетевые термины и понятия/ГЛАВА 7. О БЕЗОПАСНОСТИ СЕТИ/7.3. О безопасности ОС Windows при работе в сетях.md",
     "20 — Обучение/Активные курсы/Компьютерные сети на примерах - Просто о Сложном (по книге)/ЧАСТЬ 1. Основные сетевые термины и понятия/ГЛАВА 7. О БЕЗОПАСНОСТИ СЕТИ/7.2. Типы серверов.md",
     "20 — Обучение/Активные курсы/Компьютерные сети на примерах - Просто о Сложном (по книге)/ЧАСТЬ 1. Основные сетевые термины и понятия/ГЛАВА 7. О БЕЗОПАСНОСТИ СЕТИ/7.1. Одноранговые сети.md",
@@ -234,7 +234,6 @@
     "40 — Работа/00 — Профессиональный опыт/03 — ГБПОУ ИТ.Москва.md",
     "40 — Работа/00 — Профессиональный опыт/08 — Вопросы для уточнения.md",
     "40 — Работа/00 — Профессиональный опыт/07 — Публичный профиль опыта.md",
-    "40 — Работа/00 — Профессиональный опыт/06 — Реестр рабочих кейсов.md",
     "20 — Обучение/Активные курсы/Специалист по кибербезопасности/Модуль 11. Аудит/Изображения/Pasted image 20260905130017.png",
     "30 — Практика и кейсы/Кейсы ИБ и кибербезопасности/Специалист по кибербезопасности SkillFactory/Модуль 6. Сетевая сегментация/Изображения/Pasted image 20260606103424.png",
     "30 — Практика и кейсы/Кейсы ИБ и кибербезопасности/Специалист по кибербезопасности SkillFactory/Модуль 6. Сетевая сегментация/Изображения/Pasted image 20260606102827.png",
