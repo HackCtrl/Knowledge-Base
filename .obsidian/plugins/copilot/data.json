@@ -471,15 +471,6 @@
     {
       "providerId": "4ec3cf7f-f6ed-4f62-bf11-233e4fb5c39d",
       "info": {
-        "id": "opencode/space-bunny-free",
-        "displayName": "opencode/Space Bunny Free"
-      },
-      "configuredModelId": "73e46f7d-b140-472e-8b28-751aa737ba94",
-      "configuredAt": 1792332364491
-    },
-    {
-      "providerId": "4ec3cf7f-f6ed-4f62-bf11-233e4fb5c39d",
-      "info": {
         "id": "opencode/beam-free",
         "displayName": "opencode/Beam Free"
       },
@@ -772,6 +763,47 @@
       },
       "configuredModelId": "85a9ae12-0da0-47ac-936e-20c1f8b487d8",
       "configuredAt": 1792337772785
+    },
+    {
+      "providerId": "23afcbfa-fa03-4462-b072-10bce027f096",
+      "info": {
+        "id": "gpt-5.5",
+        "displayName": "5.5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-04-23",
+        "cost": {
+          "input": 5,
+          "output": 30
+        },
+        "description": "Legacy coding model."
+      },
+      "configuredModelId": "13c1fb53-8c8c-4c6d-9893-fa35f46b4b53",
+      "configuredAt": 1792583685332
+    },
+    {
+      "providerId": "4ec3cf7f-f6ed-4f62-bf11-233e4fb5c39d",
+      "info": {
+        "id": "opencode/minimax-m3.1-flash-free",
+        "displayName": "opencode/MiniMax M3.1 Flash Free"
+      },
+      "configuredModelId": "10c6f650-a21c-418f-a47d-202979ba5dfa",
+      "configuredAt": 1792583685333
     }
   ],
   "backends": {
