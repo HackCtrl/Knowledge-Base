@@ -1,0 +1,1 @@
+/Users/a000/Documents/DTEK Core/AI_DEVELOPMENT_GUIDE.md
