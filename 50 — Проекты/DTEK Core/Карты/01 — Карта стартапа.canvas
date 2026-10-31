@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"group-market","type":"group","x":0,"y":0,"width":760,"height":880,"label":"Проблема и рынок","color":"2"},
+		{"id":"group-core","type":"group","x":860,"y":0,"width":900,"height":880,"label":"Ценность DTEK","color":"5"},
+		{"id":"group-products","type":"group","x":1860,"y":0,"width":900,"height":880,"label":"Продуктовая линейка","color":"6"},
+		{"id":"group-now","type":"group","x":460,"y":1000,"width":1840,"height":720,"label":"Текущая точка и путь к пилоту","color":"1"},
+		{"id":"market-problem","type":"text","x":60,"y":80,"width":640,"height":230,"text":"# Проблема\n\nДанные о защищённости разрознены между CMDB, сканерами, SIEM, таблицами и экспертами. Организации видят события, но не всегда понимают:\n\n- чему можно доверять;\n- почему оценка изменилась;\n- какой риск важнее;\n- что исправлять первым.","color":"2"},
+		{"id":"market-audience","type":"text","x":60,"y":360,"width":640,"height":210,"text":"# Первый целевой сегмент\n\nРоссийские SMB и mid-market организации:\n\n- CISO и руководители ИБ;\n- аналитики ИБ;\n- IT-администраторы;\n- интеграторы и консультанты.","color":"3"},
+		{"id":"market-position","type":"text","x":60,"y":620,"width":640,"height":190,"text":"# Позиционирование\n\nDTEK не заменяет SIEM, EDR, DLP, CMDB или сканер. Это слой доверительной интерпретации данных из разрешённых источников.","color":"5"},
+		{"id":"core-promise","type":"text","x":930,"y":80,"width":760,"height":220,"text":"# DTEK Platform\n\n**Evidence-first Trust Intelligence Platform**\n\nПомогает понять, чему в цифровой среде можно доверять, почему, что изменилось и какое действие сильнее всего снизит риск.","color":"5"},
+		{"id":"core-chain","type":"text","x":930,"y":350,"width":760,"height":250,"text":"# Цепочка ценности\n\nОбъекты и идентификаторы\n→ Доказательства\n→ Находки\n→ Риски\n→ Trust Passport\n→ Trust Score\n→ Trust Graph\n→ Рекомендации и проверка исправления","color":"4"},
+		{"id":"core-control","type":"text","x":930,"y":650,"width":760,"height":160,"text":"# Принцип контроля\n\nАвтоматизация обнаруживает и объясняет. Человек подтверждает scope, разрешает неоднозначности, добавляет бизнес-контекст и принимает решение об исправлении.","color":"3"},
+		{"id":"product-business","type":"text","x":1920,"y":80,"width":360,"height":220,"text":"# DTEK Business\n\nОрганизации, инфраструктура, evidence, findings, risks, Trust Passport, Graph и remediation.\n\n**Статус:** текущий фундамент реализован.","color":"4"},
+		{"id":"product-home","type":"text","x":2340,"y":80,"width":360,"height":220,"text":"# DTEK Home\n\nБезопасное обнаружение устройств внутри подтверждённой домашней сети, Device Passport и рекомендации.\n\n**Статус:** запланировано.","color":"6"},
+		{"id":"product-personal","type":"text","x":1920,"y":360,"width":360,"height":220,"text":"# DTEK Personal\n\nПриватный workspace цифровой идентичности, согласие, Personal Trust Passport и безопасные рекомендации.\n\n**Статус:** запланировано.","color":"6"},
+		{"id":"product-exposure","type":"text","x":2340,"y":360,"width":360,"height":220,"text":"# DTEK Exposure\n\nЛегальный анализ собственной публичной цифровой экспозиции без doxxing, чужих данных и раскрытия секретов.\n\n**Статус:** запланировано.","color":"6"},
+		{"id":"product-knowledge","type":"text","x":1920,"y":640,"width":780,"height":170,"text":"# DTEK Knowledge\n\nЧто обнаружено → почему опасно → что затронуто → как проверить → как исправить → как подтвердить результат.\n\nОбщий слой для Business, Home и Personal.","color":"5"},
+		{"id":"now-current","type":"file","x":530,"y":1080,"width":480,"height":250,"file":"50 — Проекты/DTEK Core/01 — Текущее состояние.md","color":"3"},
+		{"id":"now-gate","type":"file","x":1140,"y":1080,"width":480,"height":250,"file":"50 — Проекты/DTEK Core/Спринты/00 — Шлюз безопасности и стабилизации.md","color":"1"},
+		{"id":"now-pilot","type":"file","x":1750,"y":1080,"width":480,"height":250,"file":"50 — Проекты/DTEK Core/08 — Рынок, пилоты и клиенты.md","color":"4"},
+		{"id":"now-rule","type":"text","x":530,"y":1400,"width":1700,"height":230,"text":"# Главный порядок\n\n1. Закрыть Security & Stabilization Gate.\n2. Подтвердить миграции, роли, RLS и ручной QA.\n3. Провести ограниченный пилот с измеримыми результатами.\n4. Только после подтверждённого спроса выбирать первый connector/source path.\n5. Развивать Platform Foundation без переписывания работающего Core.","color":"2"}
+	],
+	"edges":[
+		{"id":"edge-problem-promise","fromNode":"market-problem","fromSide":"right","toNode":"core-promise","toSide":"left","toEnd":"arrow","label":"решает"},
+		{"id":"edge-audience-promise","fromNode":"market-audience","fromSide":"right","toNode":"core-promise","toSide":"left","toEnd":"arrow","label":"для кого"},
+		{"id":"edge-promise-chain","fromNode":"core-promise","fromSide":"bottom","toNode":"core-chain","toSide":"top","toEnd":"arrow"},
+		{"id":"edge-chain-business","fromNode":"core-chain","fromSide":"right","toNode":"product-business","toSide":"left","toEnd":"arrow","label":"первый режим"},
+		{"id":"edge-chain-home","fromNode":"core-chain","fromSide":"right","toNode":"product-home","toSide":"left","toEnd":"arrow"},
+		{"id":"edge-chain-personal","fromNode":"core-chain","fromSide":"right","toNode":"product-personal","toSide":"left","toEnd":"arrow"},
+		{"id":"edge-chain-exposure","fromNode":"core-chain","fromSide":"right","toNode":"product-exposure","toSide":"left","toEnd":"arrow"},
+		{"id":"edge-current-gate","fromNode":"now-current","fromSide":"right","toNode":"now-gate","toSide":"left","toEnd":"arrow","label":"сейчас"},
+		{"id":"edge-gate-pilot","fromNode":"now-gate","fromSide":"right","toNode":"now-pilot","toSide":"left","toEnd":"arrow","label":"после PASS"}
+	]
+}

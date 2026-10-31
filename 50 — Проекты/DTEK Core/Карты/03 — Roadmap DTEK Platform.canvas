@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"group-history","type":"group","x":0,"y":0,"width":720,"height":800,"label":"Завершённая история","color":"4"},
+		{"id":"group-gate","type":"group","x":820,"y":0,"width":720,"height":800,"label":"Сейчас: обязательный Gate","color":"1"},
+		{"id":"group-foundation","type":"group","x":1640,"y":0,"width":820,"height":800,"label":"Platform Foundation","color":"5"},
+		{"id":"group-business","type":"group","x":2560,"y":0,"width":820,"height":800,"label":"DTEK Business MVP","color":"4"},
+		{"id":"group-home","type":"group","x":3480,"y":0,"width":720,"height":800,"label":"DTEK Home MVP","color":"6"},
+		{"id":"group-personal","type":"group","x":4300,"y":0,"width":820,"height":800,"label":"Personal & Exposure MVP","color":"6"},
+		{"id":"group-platform","type":"group","x":5220,"y":0,"width":820,"height":800,"label":"Shared Platform & Release","color":"3"},
+		{"id":"history-core","type":"text","x":60,"y":80,"width":600,"height":280,"text":"# Sprint 01–14\n\nСозданы инфраструктура, auth, organizations, Objects, Risks, Trust Passport, Trust Score, Graph, Dashboard, security hardening, UX, reporting, import, explainability, risk workflow и pilot readiness.","color":"4"},
+		{"id":"history-connectors","type":"text","x":60,"y":420,"width":600,"height":230,"text":"# Sprint 15\n\nConnector Framework Foundation завершён как архитектурный и security contract. Runtime и первый connector отложены до подтверждённого спроса.","color":"4"},
+		{"id":"history-status","type":"text","x":60,"y":690,"width":600,"height":60,"text":"**Milestone:** Functional pre-pilot MVP"},
+		{"id":"gate-blockers","type":"file","x":880,"y":80,"width":600,"height":290,"file":"50 — Проекты/DTEK Core/Спринты/00 — Шлюз безопасности и стабилизации.md","color":"1"},
+		{"id":"gate-result","type":"text","x":880,"y":430,"width":600,"height":220,"text":"# Условие выхода\n\nSEC-01–04 и STAB-01–05 закрыты; migration parity подтверждён; RLS integration matrix, authenticated QA и regression имеют фактический PASS.","color":"1"},
+		{"id":"gate-status","type":"text","x":880,"y":690,"width":600,"height":60,"text":"**Статус:** PREPARED / NOT STARTED","color":"2"},
+		{"id":"foundation-16","type":"text","x":1700,"y":80,"width":700,"height":130,"text":"# Sprint 16\nWorkspace & Account Foundation\n\nБезопасная additive workspace boundary.","color":"5"},
+		{"id":"foundation-17","type":"text","x":1700,"y":250,"width":700,"height":130,"text":"# Sprint 17\nUnified Evidence & Finding Layer\n\nProvenance, freshness, confidence и finding lifecycle.","color":"5"},
+		{"id":"foundation-18","type":"text","x":1700,"y":420,"width":700,"height":130,"text":"# Sprint 18\nRecommendation, Remediation & Knowledge Core\n\nБезопасное действие и verification result.","color":"5"},
+		{"id":"foundation-19","type":"text","x":1700,"y":590,"width":700,"height":130,"text":"# Sprint 19\nScoped Assessment Execution Foundation\n\nBounded, authorized и auditable execution contract.","color":"5"},
+		{"id":"business-sprints","type":"text","x":2620,"y":80,"width":700,"height":480,"text":"# Sprint 20–24\n\n**20:** Connector Runtime & Discovery Inbox\n\n**21:** Первый подтверждённый source и infrastructure discovery\n\n**22:** Evidence-backed findings и Trust impact\n\n**23:** Dependencies, exposure paths, SPOF и resilience\n\n**24:** Remediation workflow и pilot release","color":"4"},
+		{"id":"business-milestone","type":"text","x":2620,"y":620,"width":700,"height":100,"text":"# Milestone\nEvidence-driven DTEK Business MVP","color":"4"},
+		{"id":"home-sprints","type":"text","x":3540,"y":80,"width":600,"height":400,"text":"# Sprint 25–27\n\n**25:** Home workspace и privacy foundation\n\n**26:** Paired local collector и device discovery\n\n**27:** Device Passports, Home Trust Score и safe recommendations","color":"6"},
+		{"id":"home-milestone","type":"text","x":3540,"y":540,"width":600,"height":180,"text":"# Milestone\nDTEK Home MVP\n\nТолько подтверждённая локальная сеть; без arbitrary cloud scanning.","color":"6"},
+		{"id":"personal-sprints","type":"text","x":4360,"y":80,"width":700,"height":430,"text":"# Sprint 28–31\n\n**28:** Personal workspace, consent и privacy\n\n**29:** Personal Trust Passport & Score\n\n**30:** Breach & Digital Footprint\n\n**31:** Safe Public Intelligence Toolkit","color":"6"},
+		{"id":"personal-milestone","type":"text","x":4360,"y":570,"width":700,"height":150,"text":"# Milestone\nPersonal & Exposure MVP\n\nТолько собственные identifiers и подтверждённое согласие.","color":"6"},
+		{"id":"platform-sprints","type":"text","x":5280,"y":80,"width":700,"height":420,"text":"# Sprint 32–35\n\n**32:** Knowledge & Remediation Center\n\n**33:** Continuous Trust, history и meaningful notifications\n\n**34:** Unified Platform Experience & Governance\n\n**35:** Security, privacy и operations validation","color":"3"},
+		{"id":"platform-milestone","type":"text","x":5280,"y":560,"width":700,"height":160,"text":"# Финальная точка\nDTEK Platform MVP\n\nРешение **GO / NO-GO** принимается только по фактическим release evidence.","color":"3"},
+		{"id":"roadmap-source","type":"file","x":2560,"y":920,"width":820,"height":180,"file":"50 — Проекты/DTEK Core/03 — Дорожная карта.md","color":"5"},
+		{"id":"sprints-source","type":"file","x":3480,"y":920,"width":720,"height":180,"file":"50 — Проекты/DTEK Core/Спринты/00 — Все спринты.md","color":"5"}
+	],
+	"edges":[
+		{"id":"road-edge-01","fromNode":"history-connectors","fromSide":"right","toNode":"gate-blockers","toSide":"left","toEnd":"arrow","label":"текущая точка"},
+		{"id":"road-edge-02","fromNode":"gate-result","fromSide":"right","toNode":"foundation-16","toSide":"left","toEnd":"arrow","label":"только после PASS","color":"1"},
+		{"id":"road-edge-03","fromNode":"foundation-16","fromSide":"bottom","toNode":"foundation-17","toSide":"top","toEnd":"arrow"},
+		{"id":"road-edge-04","fromNode":"foundation-17","fromSide":"bottom","toNode":"foundation-18","toSide":"top","toEnd":"arrow"},
+		{"id":"road-edge-05","fromNode":"foundation-18","fromSide":"bottom","toNode":"foundation-19","toSide":"top","toEnd":"arrow"},
+		{"id":"road-edge-06","fromNode":"foundation-19","fromSide":"right","toNode":"business-sprints","toSide":"left","toEnd":"arrow","label":"Foundation Ready"},
+		{"id":"road-edge-07","fromNode":"business-milestone","fromSide":"right","toNode":"home-sprints","toSide":"left","toEnd":"arrow","label":"Business MVP"},
+		{"id":"road-edge-08","fromNode":"home-milestone","fromSide":"right","toNode":"personal-sprints","toSide":"left","toEnd":"arrow","label":"Home MVP"},
+		{"id":"road-edge-09","fromNode":"personal-milestone","fromSide":"right","toNode":"platform-sprints","toSide":"left","toEnd":"arrow","label":"Personal MVP"}
+	]
+}

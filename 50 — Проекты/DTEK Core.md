@@ -1,43 +1,33 @@
 ---
-type: project-index
-status: active
-visibility: private
-tags:
-  - navigation/project
+тип: индекс проекта
+статус: активен
+обновлено: 2026-10-29
+теги:
   - dtek
-aliases:
-  - DTEK Project
 ---
 
 # DTEK Core
 
 Приватная точка входа в управление продуктом DTEK Core.
 
-> [!warning] Приватный раздел
-> Не публиковать внутренние материалы, сведения о безопасности, пилотах и
-> клиентах без отдельной проверки.
+> [!danger] Текущий приоритет
+> Пройти Шлюз безопасности и стабилизации. Новые продуктовые спринты пока заблокированы.
 
-## Начать Работу
+## Открыть проект
 
-- [[50 — Проекты/DTEK Core/00_START_HERE|Project Control Center]]
-- [[50 — Проекты/DTEK Core/01_EXECUTIVE_DASHBOARD|Executive Dashboard]]
-- [[50 — Проекты/DTEK Core/boards/DEVELOPMENT_BOARD|Development Board]]
-- [[50 — Проекты/DTEK Core/05_SPRINT_CATALOG|Sprint Catalog 01–35]]
+- [[50 — Проекты/DTEK Core/00 — Главная|Главная страница проекта]]
+- [[50 — Проекты/DTEK Core/Доски/Разработка|Доска разработки]]
+- [[50 — Проекты/DTEK Core/Реестры/Центр задач|Центр задач и сроков]]
+- [[50 — Проекты/DTEK Core/10 — Визуальные карты|Визуальные карты продукта и Roadmap]]
+- [[50 — Проекты/DTEK Core/Спринты/00 — Все спринты|Все спринты 01–35]]
+- [[50 — Проекты/DTEK Core/01 — Текущее состояние|Текущее состояние]]
+- [[50 — Проекты/DTEK Core/03 — Дорожная карта|Дорожная карта]]
 
-## Управление Стартапом
+## Быстрые действия
 
-- [[50 — Проекты/DTEK Core/03_PRODUCT_AND_BUSINESS|Продукт и бизнес]]
-- [[50 — Проекты/DTEK Core/04_ROADMAP_AND_MILESTONES|Roadmap и milestones]]
-- [[50 — Проекты/DTEK Core/09_DESIGN_AND_UX|Дизайн и UX]]
-- [[50 — Проекты/DTEK Core/10_GO_TO_MARKET|Go-to-market и пилоты]]
-- [[50 — Проекты/DTEK Core/registers/DECISION_REGISTER|Реестр решений]]
-- [[50 — Проекты/DTEK Core/registers/METRICS_REGISTER|Метрики]]
+- Новая идея → [[50 — Проекты/DTEK Core/Доски/Идеи и исследования|Идеи и исследования]]
+- Найдена ошибка → [[50 — Проекты/DTEK Core/Доски/Ошибки и тестирование|Ошибки и тестирование]]
+- Нужно решение → [[50 — Проекты/DTEK Core/Реестры/Решения|Реестр решений]]
+- Работа с пилотом → [[50 — Проекты/DTEK Core/Реестры/Пилоты и клиенты|Пилоты и клиенты]]
 
-## Актуальные Источники
-
-- [[50 — Проекты/DTEK Core/Репозиторий/README|README проекта]]
-- [[50 — Проекты/DTEK Core/Репозиторий/ARCHITECTURE_DECISIONS|Архитектурные решения]]
-- [[50 — Проекты/DTEK Core/Репозиторий/DOCUMENTATION_INDEX|Индекс документации]]
-- [[50 — Проекты/DTEK Core/Репозиторий/tasks/SECURITY_STABILIZATION_GATE|Следующий обязательный Gate]]
-
-Исходный код: `/Users/a000/Documents/DTEK Core`.
+Исходный код и техническая документация: /Users/a000/Documents/DTEK Core.

@@ -1,0 +1,293 @@
+{
+  "nodes": [
+    {
+      "id": "group-admission",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 820,
+      "height": 920,
+      "label": "0. Допуск к пилоту",
+      "color": "1"
+    },
+    {
+      "id": "group-discovery",
+      "type": "group",
+      "x": 920,
+      "y": 0,
+      "width": 820,
+      "height": 920,
+      "label": "1. Discovery и квалификация",
+      "color": "2"
+    },
+    {
+      "id": "group-prepare",
+      "type": "group",
+      "x": 1840,
+      "y": 0,
+      "width": 820,
+      "height": 920,
+      "label": "2. Подготовка пилота",
+      "color": "3"
+    },
+    {
+      "id": "group-run",
+      "type": "group",
+      "x": 2760,
+      "y": 0,
+      "width": 820,
+      "height": 920,
+      "label": "3. Проведение пилота",
+      "color": "5"
+    },
+    {
+      "id": "group-measure",
+      "type": "group",
+      "x": 3680,
+      "y": 0,
+      "width": 820,
+      "height": 920,
+      "label": "4. Измерение и обратная связь",
+      "color": "4"
+    },
+    {
+      "id": "group-decision",
+      "type": "group",
+      "x": 4600,
+      "y": 0,
+      "width": 820,
+      "height": 920,
+      "label": "5. Решение",
+      "color": "6"
+    },
+    {
+      "id": "admission-current",
+      "type": "text",
+      "x": 60,
+      "y": 80,
+      "width": 700,
+      "height": 210,
+      "text": "# Текущий статус\n\nFunctional pre-pilot MVP. Основные сценарии реализованы, но разрешение на пилот не выдано.",
+      "color": "2"
+    },
+    {
+      "id": "admission-gate",
+      "type": "file",
+      "x": 60,
+      "y": 350,
+      "width": 700,
+      "height": 270,
+      "file": "50 — Проекты/DTEK Core/Спринты/00 — Шлюз безопасности и стабилизации.md",
+      "color": "1"
+    },
+    {
+      "id": "admission-pass",
+      "type": "text",
+      "x": 60,
+      "y": 680,
+      "width": 700,
+      "height": 160,
+      "text": "# Release evidence\n\nGate, role-based QA, migration parity, smoke/regression и backup/restore evidence должны иметь фактический PASS.",
+      "color": "1"
+    },
+    {
+      "id": "discovery-icp",
+      "type": "text",
+      "x": 980,
+      "y": 80,
+      "width": 700,
+      "height": 190,
+      "text": "# ICP\n\nРоссийская SMB/mid-market организация с разрозненными данными об инфраструктуре и потребностью в понятном trust/risk view.",
+      "color": "2"
+    },
+    {
+      "id": "discovery-interview",
+      "type": "text",
+      "x": 980,
+      "y": 330,
+      "width": 700,
+      "height": 250,
+      "text": "# Интервью\n\nПодтвердить:\n\n- реальную проблему и текущий процесс;\n- доступные источники данных;\n- ожидаемый измеримый результат;\n- владельца пилота;\n- готовность выделить время и обсуждать оплату.",
+      "color": "3"
+    },
+    {
+      "id": "discovery-scope",
+      "type": "text",
+      "x": 980,
+      "y": 640,
+      "width": 700,
+      "height": 200,
+      "text": "# Qualification Decision\n\nПилот начинается только при согласованном scope, доступных данных, ответственном лице и критериях успеха.",
+      "color": "3"
+    },
+    {
+      "id": "prepare-offer",
+      "type": "text",
+      "x": 1900,
+      "y": 80,
+      "width": 700,
+      "height": 190,
+      "text": "# Pilot Offer\n\nЦель, продолжительность, роли, границы, результаты, ограничения и формат итогового решения фиксируются до начала.",
+      "color": "3"
+    },
+    {
+      "id": "prepare-environment",
+      "type": "text",
+      "x": 1900,
+      "y": 330,
+      "width": 700,
+      "height": 230,
+      "text": "# Environment & Access\n\n- рабочее окружение и health check;\n- backup/restore readiness;\n- безопасные роли и приглашения;\n- минимизация клиентских данных;\n- согласованный канал ошибок и обратной связи.",
+      "color": "1"
+    },
+    {
+      "id": "prepare-data",
+      "type": "text",
+      "x": 1900,
+      "y": 620,
+      "width": 700,
+      "height": 220,
+      "text": "# Data Onboarding\n\nПервый путь — контролируемый CSV/XLSX import объектов и рисков с preview, validation, source metadata и audit events.",
+      "color": "5"
+    },
+    {
+      "id": "run-onboarding",
+      "type": "text",
+      "x": 2820,
+      "y": 80,
+      "width": 700,
+      "height": 200,
+      "text": "# Onboarding\n\nСоздание организации, приглашение команды, настройка ролей и загрузка согласованного набора данных.",
+      "color": "5"
+    },
+    {
+      "id": "run-value",
+      "type": "text",
+      "x": 2820,
+      "y": 340,
+      "width": 700,
+      "height": 300,
+      "text": "# Основной сценарий ценности\n\n1. Увидеть объекты и связи.\n2. Открыть Trust Passport и объяснение Score.\n3. Найти приоритетные риски.\n4. Назначить владельца и срок.\n5. Зафиксировать решение и активность.\n6. Сформировать отчёт для руководителя.",
+      "color": "4"
+    },
+    {
+      "id": "run-support",
+      "type": "text",
+      "x": 2820,
+      "y": 700,
+      "width": 700,
+      "height": 140,
+      "text": "# Сопровождение\n\nФиксировать ошибки, вопросы, ручную работу и непонятные объяснения без скрытой корректировки результатов.",
+      "color": "2"
+    },
+    {
+      "id": "measure-product",
+      "type": "text",
+      "x": 3740,
+      "y": 80,
+      "width": 700,
+      "height": 240,
+      "text": "# Product Metrics\n\n- время первичного наполнения;\n- доля полезных объектов и рисков;\n- понятность Trust Score;\n- количество обнаруженных приоритетов;\n- завершённые действия;\n- повторное использование.",
+      "color": "4"
+    },
+    {
+      "id": "measure-business",
+      "type": "text",
+      "x": 3740,
+      "y": 380,
+      "width": 700,
+      "height": 210,
+      "text": "# Business Metrics\n\n- подтверждённая проблема;\n- экономия времени;\n- полезность для CISO/аналитика;\n- готовность продолжить;\n- готовность платить и условия сделки.",
+      "color": "4"
+    },
+    {
+      "id": "measure-feedback",
+      "type": "text",
+      "x": 3740,
+      "y": 650,
+      "width": 700,
+      "height": 190,
+      "text": "# Feedback Loop\n\nКаждое замечание получает owner, приоритет, решение и проверку. Новые connector ideas требуют нескольких подтверждений спроса.",
+      "color": "3"
+    },
+    {
+      "id": "decision-outcomes",
+      "type": "text",
+      "x": 4660,
+      "y": 80,
+      "width": 700,
+      "height": 260,
+      "text": "# Итог пилота\n\n- **GO:** ценность подтверждена, blockers закрыты;\n- **ITERATE:** ценность есть, требуется ограниченная доработка;\n- **NO-GO:** проблема или willingness-to-pay не подтверждены;\n- **STOP:** security/privacy risk неприемлем.",
+      "color": "6"
+    },
+    {
+      "id": "decision-connectors",
+      "type": "text",
+      "x": 4660,
+      "y": 400,
+      "width": 700,
+      "height": 220,
+      "text": "# Решение по источникам\n\nПервый connector выбирается по фактической частоте запроса, доступности API/export, security cost и измеримой ценности пилота.",
+      "color": "6"
+    },
+    {
+      "id": "decision-next",
+      "type": "text",
+      "x": 4660,
+      "y": 680,
+      "width": 700,
+      "height": 160,
+      "text": "# Следующий этап\n\nЗафиксировать решение в Roadmap и backlog. Не расширять scope задним числом и не отмечать неподтверждённые результаты как PASS.",
+      "color": "3"
+    },
+    {
+      "id": "pilot-registry",
+      "type": "file",
+      "x": 1840,
+      "y": 1040,
+      "width": 820,
+      "height": 180,
+      "file": "50 — Проекты/DTEK Core/Реестры/Пилоты и клиенты.md",
+      "color": "2"
+    },
+    {
+      "id": "metrics-registry",
+      "type": "file",
+      "x": 2760,
+      "y": 1040,
+      "width": 820,
+      "height": 180,
+      "file": "50 — Проекты/DTEK Core/Реестры/Метрики.md",
+      "color": "4"
+    },
+    {
+      "id": "pilot-source",
+      "type": "file",
+      "x": 3680,
+      "y": 1040,
+      "width": 820,
+      "height": 180,
+      "file": "50 — Проекты/DTEK Core/08 — Рынок, пилоты и клиенты.md",
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {"id":"pilot-edge-01","fromNode":"admission-current","fromSide":"bottom","toNode":"admission-gate","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-02","fromNode":"admission-gate","fromSide":"bottom","toNode":"admission-pass","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-03","fromNode":"admission-pass","fromSide":"right","toNode":"discovery-icp","toSide":"left","toEnd":"arrow","label":"только после PASS","color":"1"},
+    {"id":"pilot-edge-04","fromNode":"discovery-icp","fromSide":"bottom","toNode":"discovery-interview","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-05","fromNode":"discovery-interview","fromSide":"bottom","toNode":"discovery-scope","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-06","fromNode":"discovery-scope","fromSide":"right","toNode":"prepare-offer","toSide":"left","toEnd":"arrow"},
+    {"id":"pilot-edge-07","fromNode":"prepare-offer","fromSide":"bottom","toNode":"prepare-environment","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-08","fromNode":"prepare-environment","fromSide":"bottom","toNode":"prepare-data","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-09","fromNode":"prepare-data","fromSide":"right","toNode":"run-onboarding","toSide":"left","toEnd":"arrow"},
+    {"id":"pilot-edge-10","fromNode":"run-onboarding","fromSide":"bottom","toNode":"run-value","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-11","fromNode":"run-value","fromSide":"bottom","toNode":"run-support","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-12","fromNode":"run-support","fromSide":"right","toNode":"measure-product","toSide":"left","toEnd":"arrow"},
+    {"id":"pilot-edge-13","fromNode":"measure-product","fromSide":"bottom","toNode":"measure-business","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-14","fromNode":"measure-business","fromSide":"bottom","toNode":"measure-feedback","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-15","fromNode":"measure-feedback","fromSide":"right","toNode":"decision-outcomes","toSide":"left","toEnd":"arrow"},
+    {"id":"pilot-edge-16","fromNode":"decision-outcomes","fromSide":"bottom","toNode":"decision-connectors","toSide":"top","toEnd":"arrow"},
+    {"id":"pilot-edge-17","fromNode":"decision-connectors","fromSide":"bottom","toNode":"decision-next","toSide":"top","toEnd":"arrow"}
+  ]
+}
