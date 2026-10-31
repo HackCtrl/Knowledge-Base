@@ -316,7 +316,7 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": "4.0.16",
+  "lastDismissedVersion": "4.0.17",
   "lastShownStartupVersion": "4.0.17",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
@@ -763,8 +763,8 @@
     {
       "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
       "info": {
-        "id": "gpt-5.5",
-        "displayName": "5.5",
+        "id": "gpt-6.1-terra",
+        "displayName": "6.1 Terra",
         "modalities": {
           "input": [
             "text",
@@ -782,16 +782,17 @@
         },
         "reasoning": true,
         "toolCall": true,
-        "releaseDate": "2026-04-23",
+        "releaseDate": "2026-10-26",
         "cost": {
-          "input": 5,
-          "output": 30,
-          "cacheRead": 0.5
+          "input": 1,
+          "output": 5,
+          "cacheRead": 0.05,
+          "cacheWrite": 1.25
         },
-        "description": "Legacy coding model."
+        "description": "GPT-6.1 Terra Codex model."
       },
-      "configuredModelId": "91e8305c-696b-44f4-a2c9-1a511ad4f66d",
-      "configuredAt": 1793430227856
+      "configuredModelId": "4b5f4529-4eb2-412f-b7b0-b7df61788449",
+      "configuredAt": 1793469369456
     }
   ],
   "backends": {
