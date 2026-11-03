@@ -791,8 +791,8 @@
         },
         "description": "GPT-6.1 Terra Codex model."
       },
-      "configuredModelId": "4b5f4529-4eb2-412f-b7b0-b7df61788449",
-      "configuredAt": 1793469369456
+      "configuredModelId": "d95a9779-d488-47ea-8859-7c9a3f8c2c02",
+      "configuredAt": 1793626589180
     }
   ],
   "backends": {
