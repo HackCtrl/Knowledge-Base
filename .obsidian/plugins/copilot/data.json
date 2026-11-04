@@ -793,6 +793,15 @@
       },
       "configuredModelId": "d95a9779-d488-47ea-8859-7c9a3f8c2c02",
       "configuredAt": 1793626589180
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "opencode/pulse-alpha-free",
+        "displayName": "opencode/Pulse Alpha Free"
+      },
+      "configuredModelId": "3f51dd0d-104c-4889-bae1-7c7b93f1f9f7",
+      "configuredAt": 1793719104596
     }
   ],
   "backends": {
