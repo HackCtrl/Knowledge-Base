@@ -316,7 +316,7 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": "4.0.17",
+  "lastDismissedVersion": "4.0.18",
   "lastShownStartupVersion": "4.0.18",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
@@ -770,10 +770,19 @@
       "configuredAt": 1793719104596
     },
     {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "opencode/crouton-alpha-free",
+        "displayName": "opencode/Crouton Alpha Free"
+      },
+      "configuredModelId": "d036103f-0698-4776-ac4b-20cb6d102d52",
+      "configuredAt": 1793814368852
+    },
+    {
       "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
       "info": {
-        "id": "gpt-5.5",
-        "displayName": "5.5",
+        "id": "gpt-6.1-terra",
+        "displayName": "6.1 Terra",
         "modalities": {
           "input": [
             "text",
@@ -791,25 +800,17 @@
         },
         "reasoning": true,
         "toolCall": true,
-        "releaseDate": "2026-04-23",
+        "releaseDate": "2026-10-26",
         "cost": {
-          "input": 5,
-          "output": 30,
-          "cacheRead": 0.5
+          "input": 1,
+          "output": 5,
+          "cacheRead": 0.05,
+          "cacheWrite": 1.25
         },
-        "description": "Legacy coding model."
+        "description": "GPT-6.1 Terra Codex model."
       },
-      "configuredModelId": "14330fbd-efb1-4af0-ae82-c0028763b834",
-      "configuredAt": 1793814367426
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
-        "id": "opencode/crouton-alpha-free",
-        "displayName": "opencode/Crouton Alpha Free"
-      },
-      "configuredModelId": "d036103f-0698-4776-ac4b-20cb6d102d52",
-      "configuredAt": 1793814368852
+      "configuredModelId": "d6d81bb2-7b64-4599-8507-9b048bb1a143",
+      "configuredAt": 1793868960033
     }
   ],
   "backends": {
