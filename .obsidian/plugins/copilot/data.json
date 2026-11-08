@@ -498,37 +498,6 @@
     {
       "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
       "info": {
-        "id": "gpt-5.4-mini",
-        "displayName": "5.4 Mini",
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 400000,
-          "output": 128000,
-          "input": 272000
-        },
-        "reasoning": true,
-        "toolCall": true,
-        "releaseDate": "2026-03-17",
-        "cost": {
-          "input": 0.75,
-          "output": 4.5,
-          "cacheRead": 0.075
-        }
-      },
-      "configuredModelId": "2a606f22-c28c-4eb3-a865-ebac25dfc74f",
-      "configuredAt": 1793089091577
-    },
-    {
-      "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
-      "info": {
         "id": "gpt-6.1-sol",
         "displayName": "6.1 Sol",
         "modalities": {
@@ -763,15 +732,6 @@
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
-        "id": "opencode/pulse-alpha-free",
-        "displayName": "opencode/Pulse Alpha Free"
-      },
-      "configuredModelId": "3f51dd0d-104c-4889-bae1-7c7b93f1f9f7",
-      "configuredAt": 1793719104596
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
         "id": "opencode/crouton-alpha-free",
         "displayName": "opencode/Crouton Alpha Free"
       },
@@ -781,8 +741,8 @@
     {
       "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
       "info": {
-        "id": "gpt-6.1-terra",
-        "displayName": "6.1 Terra",
+        "id": "gpt-5.5",
+        "displayName": "5.5",
         "modalities": {
           "input": [
             "text",
@@ -800,17 +760,34 @@
         },
         "reasoning": true,
         "toolCall": true,
-        "releaseDate": "2026-10-26",
+        "releaseDate": "2026-04-23",
         "cost": {
-          "input": 1,
-          "output": 5,
-          "cacheRead": 0.05,
-          "cacheWrite": 1.25
+          "input": 5,
+          "output": 30,
+          "cacheRead": 0.5
         },
-        "description": "GPT-6.1 Terra Codex model."
+        "description": "Legacy coding model."
       },
-      "configuredModelId": "d6d81bb2-7b64-4599-8507-9b048bb1a143",
-      "configuredAt": 1793868960033
+      "configuredModelId": "263cc7d0-b6c4-4ff3-911d-1c5da1b218c8",
+      "configuredAt": 1794154119189
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "opencode/iceman-free",
+        "displayName": "opencode/Iceman Free"
+      },
+      "configuredModelId": "1964ea19-060d-4de6-ae2a-96304e8b5480",
+      "configuredAt": 1794154119203
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "opencode/inkling-2-small-free",
+        "displayName": "opencode/Inkling 2 Small Free"
+      },
+      "configuredModelId": "aac1b4a4-3b63-4ed2-b869-3bb0983b39db",
+      "configuredAt": 1794154119204
     }
   ],
   "backends": {
@@ -823,7 +800,6 @@
     },
     "codex": {
       "enabledModels": [
-        "2a606f22-c28c-4eb3-a865-ebac25dfc74f",
         "82fa2176-6bb5-4561-8c1e-2fe8d659a98c",
         "e57ee893-57a1-4de1-808e-8333600a31cd",
         "5bd6f935-8eb7-4472-a02e-3248c0041920",
