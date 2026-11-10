@@ -739,6 +739,24 @@
       "configuredAt": 1793814368852
     },
     {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "opencode/iceman-free",
+        "displayName": "opencode/Iceman Free"
+      },
+      "configuredModelId": "1964ea19-060d-4de6-ae2a-96304e8b5480",
+      "configuredAt": 1794154119203
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "opencode/inkling-2-small-free",
+        "displayName": "opencode/Inkling 2 Small Free"
+      },
+      "configuredModelId": "aac1b4a4-3b63-4ed2-b869-3bb0983b39db",
+      "configuredAt": 1794154119204
+    },
+    {
       "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
       "info": {
         "id": "gpt-5.5",
@@ -768,26 +786,8 @@
         },
         "description": "Legacy coding model."
       },
-      "configuredModelId": "263cc7d0-b6c4-4ff3-911d-1c5da1b218c8",
-      "configuredAt": 1794154119189
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
-        "id": "opencode/iceman-free",
-        "displayName": "opencode/Iceman Free"
-      },
-      "configuredModelId": "1964ea19-060d-4de6-ae2a-96304e8b5480",
-      "configuredAt": 1794154119203
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
-        "id": "opencode/inkling-2-small-free",
-        "displayName": "opencode/Inkling 2 Small Free"
-      },
-      "configuredModelId": "aac1b4a4-3b63-4ed2-b869-3bb0983b39db",
-      "configuredAt": 1794154119204
+      "configuredModelId": "35141968-9401-4690-b09d-f6fc47b0b4e0",
+      "configuredAt": 1794207169164
     }
   ],
   "backends": {
@@ -875,25 +875,6 @@
         "id": "deepseek-v4-pro",
         "displayName": "DeepSeek V4 Pro",
         "description": "A top-tier model for the hardest reasoning and agentic tasks.",
-        "toolCall": true,
-        "reasoning": true,
-        "reasoningEfforts": [],
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 1048576
-        }
-      },
-      {
-        "id": "deepseek-v4-flash-0731",
-        "displayName": "DeepSeek V4 Flash 0731",
-        "description": "The July 2026 DeepSeek V4 Flash snapshot: fast, cheap, and broadly capable.",
         "toolCall": true,
         "reasoning": true,
         "reasoningEfforts": [],
