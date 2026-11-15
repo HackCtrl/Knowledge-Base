@@ -2439,24 +2439,6 @@
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
-        "id": "openrouter/liquid/lfm-2.5-2.6b",
-        "displayName": "openrouter/LFM2.5-2.6B"
-      },
-      "configuredModelId": "acd13b33-af00-429c-8810-d0e872f0ea57",
-      "configuredAt": 1794414841586
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
-        "id": "openrouter/liquid/lfm-2.5-2.6b:free",
-        "displayName": "openrouter/LFM2.5-2.6B (free)"
-      },
-      "configuredModelId": "508feeba-7064-45d3-81db-539afbe0e948",
-      "configuredAt": 1794414841586
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
         "id": "openrouter/liquid/lfm-2.5-24b-a2b",
         "displayName": "openrouter/LFM2.5-24B-A2B"
       },
