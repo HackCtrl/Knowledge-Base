@@ -667,39 +667,6 @@
       "configuredAt": 1793089091578
     },
     {
-      "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
-      "info": {
-        "id": "gpt-5.5",
-        "displayName": "5.5",
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "pdf"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 1050000,
-          "output": 128000,
-          "input": 922000
-        },
-        "reasoning": true,
-        "toolCall": true,
-        "releaseDate": "2026-04-23",
-        "cost": {
-          "input": 5,
-          "output": 30,
-          "cacheRead": 0.5
-        },
-        "description": "Legacy coding model."
-      },
-      "configuredModelId": "35141968-9401-4690-b09d-f6fc47b0b4e0",
-      "configuredAt": 1794207169164
-    },
-    {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
         "id": "openrouter/aion-labs/aion-3.5",
@@ -2268,15 +2235,6 @@
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
-        "id": "openrouter/tencent/hunyuan-a13b-instruct",
-        "displayName": "openrouter/Hunyuan A13B Instruct"
-      },
-      "configuredModelId": "31af421e-fa15-4958-ba0b-9e30701d9195",
-      "configuredAt": 1794414841585
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
         "id": "openrouter/tencent/hy-mt2-1.8b",
         "displayName": "openrouter/Hy-MT2-1.8B"
       },
@@ -3411,15 +3369,6 @@
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
-        "id": "openrouter/qwen/qwen3-vl-30b-a3b-thinking",
-        "displayName": "openrouter/Qwen3 VL 30B A3B Thinking"
-      },
-      "configuredModelId": "15a9ab4e-5795-45f3-8e37-e322ffbb5d9e",
-      "configuredAt": 1794414841591
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
         "id": "openrouter/qwen/qwen3-vl-8b-instruct",
         "displayName": "openrouter/Qwen3 VL 8B Instruct"
       },
@@ -3807,15 +3756,6 @@
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
-        "id": "openrouter/stepfun/step-3.5-flash",
-        "displayName": "openrouter/Step 3.5 Flash"
-      },
-      "configuredModelId": "67c983dc-fa79-40a6-9c96-8b50f3fc5432",
-      "configuredAt": 1794414841594
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
         "id": "openrouter/stepfun/step-3.7-flash",
         "displayName": "openrouter/Step 3.7 Flash"
       },
@@ -4021,13 +3961,73 @@
       "configuredAt": 1794562765903
     },
     {
+      "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
+      "info": {
+        "id": "gpt-5.5",
+        "displayName": "5.5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-04-23",
+        "cost": {
+          "input": 5,
+          "output": 30,
+          "cacheRead": 0.5
+        },
+        "description": "Legacy coding model."
+      },
+      "configuredModelId": "9c3685de-18a3-43ab-b054-23a167de2911",
+      "configuredAt": 1794841864506
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "openrouter/inclusionai/ling-3.2-flash:free",
+        "displayName": "openrouter/Ling 3.2 Flash (free)"
+      },
+      "configuredModelId": "ca98a52b-daa9-471f-b9c6-75fb2c4a373d",
+      "configuredAt": 1794841864519
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "openrouter/qwen/qwen4-max",
+        "displayName": "openrouter/Qwen4 Max"
+      },
+      "configuredModelId": "573a003d-6ddb-408f-a30a-3beca60d9111",
+      "configuredAt": 1794841864519
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "openrouter/tencent/hy4-flash",
+        "displayName": "openrouter/Hy4 flash"
+      },
+      "configuredModelId": "21dc3606-d0bd-469a-9280-099bdfd548dd",
+      "configuredAt": 1794899084568
+    },
+    {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
         "id": "opencode/beam-free",
         "displayName": "opencode/Beam Free"
       },
-      "configuredModelId": "97c365d3-28d8-4843-a811-0c98424658be",
-      "configuredAt": 1794581305945
+      "configuredModelId": "6d58ef40-84aa-4112-b612-8d905d573167",
+      "configuredAt": 1794911759910
     },
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
@@ -4035,8 +4035,8 @@
         "id": "opencode/big-pickle",
         "displayName": "opencode/Big Pickle"
       },
-      "configuredModelId": "c0f3b1a8-17f2-452c-b29d-7055f86ec570",
-      "configuredAt": 1794581305945
+      "configuredModelId": "75c4e143-8d66-42d2-9b56-67c12aa71563",
+      "configuredAt": 1794911759911
     },
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
@@ -4044,8 +4044,8 @@
         "id": "opencode/flint-40b-free",
         "displayName": "opencode/Flint 40B Free"
       },
-      "configuredModelId": "3b847110-b9de-4fdf-8bc2-397732c369e9",
-      "configuredAt": 1794581305946
+      "configuredModelId": "8af67950-0133-43b4-a8c8-6337a5ae8ec9",
+      "configuredAt": 1794911759911
     },
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
@@ -4053,8 +4053,17 @@
         "id": "opencode/glm-5.3-flash-free",
         "displayName": "opencode/GLM-5.3-Flash Free"
       },
-      "configuredModelId": "2447b61c-7b44-4752-8f72-f9d71050bdd8",
-      "configuredAt": 1794581305950
+      "configuredModelId": "86d3a939-d19e-4033-a211-7d9db161b7de",
+      "configuredAt": 1794911759911
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "opencode/hy4-flash-free",
+        "displayName": "opencode/Hy4 flash Free"
+      },
+      "configuredModelId": "8e9f9426-c033-45eb-8674-e4adec2cae82",
+      "configuredAt": 1794911759912
     },
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
@@ -4062,8 +4071,8 @@
         "id": "opencode/iceman-free",
         "displayName": "opencode/Iceman Free"
       },
-      "configuredModelId": "ca14845f-6172-4ae3-b54c-ef401c32d6bc",
-      "configuredAt": 1794581305951
+      "configuredModelId": "dbef9790-4159-441e-b44f-0dc55037e6e0",
+      "configuredAt": 1794911759913
     },
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
@@ -4071,8 +4080,8 @@
         "id": "opencode/inkling-2-small-free",
         "displayName": "opencode/Inkling 2 Small Free"
       },
-      "configuredModelId": "c1254a4a-493b-4db1-bb09-13027d3a7d10",
-      "configuredAt": 1794581305953
+      "configuredModelId": "88feacf3-43ff-42d0-ac12-637c64610eca",
+      "configuredAt": 1794911759913
     },
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
@@ -4080,8 +4089,8 @@
         "id": "opencode/longcat-2.5-free",
         "displayName": "opencode/LongCat 2.5 Free"
       },
-      "configuredModelId": "1f9a27c6-9e87-4477-96d4-58505b93815d",
-      "configuredAt": 1794581305957
+      "configuredModelId": "150479b2-2d9e-401b-9e1b-d710bfbf6ba0",
+      "configuredAt": 1794911759913
     },
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
@@ -4089,17 +4098,8 @@
         "id": "opencode/mimo-v2.6-flash-free",
         "displayName": "opencode/MiMo-V2.6-Flash Free"
       },
-      "configuredModelId": "9154c8bb-8ba9-4c34-af99-bd980a49c8ca",
-      "configuredAt": 1794581305957
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
-        "id": "opencode/minimax-m3.1-flash-free",
-        "displayName": "opencode/MiniMax M3.1 Flash Free"
-      },
-      "configuredModelId": "7fd4433c-e8a8-46c0-8a98-3d1896656fc2",
-      "configuredAt": 1794581305958
+      "configuredModelId": "6cdf5a46-7642-431c-b2b7-aefacefffa96",
+      "configuredAt": 1794911759913
     },
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
@@ -4107,8 +4107,8 @@
         "id": "opencode/nemotron-3.5-lightning-free",
         "displayName": "opencode/Nemotron 3.5 Lightning Free"
       },
-      "configuredModelId": "1f4a56e2-1f54-4e9d-845e-554a27c77ec2",
-      "configuredAt": 1794581305958
+      "configuredModelId": "7fed2309-7208-49b5-8ce1-eba2bae386c8",
+      "configuredAt": 1794911759913
     },
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
@@ -4116,8 +4116,8 @@
         "id": "opencode/nemotron-3.5-super-vl-free",
         "displayName": "opencode/Nemotron 3.5 Super VL Free"
       },
-      "configuredModelId": "d27a2561-786e-43bd-a0fa-7ac446e4a023",
-      "configuredAt": 1794581305958
+      "configuredModelId": "2e72b29f-1e63-4b19-a47a-4599e77d8046",
+      "configuredAt": 1794911759913
     }
   ],
   "backends": {
