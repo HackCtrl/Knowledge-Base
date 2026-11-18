@@ -316,7 +316,7 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": "4.0.19",
+  "lastDismissedVersion": "4.0.20",
   "lastShownStartupVersion": "4.0.20",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
@@ -393,6 +393,13 @@
           "binarySource": "managed",
           "probeSessionId": "ses_e8393ff82ffeljgKiUZDncvIi6"
         }
+      },
+      "8e1b3aea-33d8-4389-a88c-b5cd22f122ee": {
+        "codex": {
+          "binaryPath": "C:\\Users\\Кирилл\\.obsidian-copilot\\codex\\2.2.2\\codex-acp.exe",
+          "binaryVersion": "2.2.2",
+          "binarySource": "managed"
+        }
       }
     }
   },
@@ -461,7 +468,7 @@
           "cacheRead": 0.1,
           "cacheWrite": 2.5
         },
-        "description": "Latest workhorse model for coding and everyday work."
+        "description": "Previous generation model for coding and everyday work."
       },
       "configuredModelId": "82fa2176-6bb5-4561-8c1e-2fe8d659a98c",
       "configuredAt": 1793089091577
@@ -494,7 +501,7 @@
           "output": 50,
           "cacheRead": 1
         },
-        "description": "Frontier intelligence for the most demanding work."
+        "description": "Previous generation model for complex coding and professional work."
       },
       "configuredModelId": "e57ee893-57a1-4de1-808e-8333600a31cd",
       "configuredAt": 1793089091577
@@ -528,7 +535,7 @@
           "cacheRead": 0.2,
           "cacheWrite": 2.5
         },
-        "description": "Previous generation workhorse model."
+        "description": "Legacy model for coding and everyday work."
       },
       "configuredModelId": "5bd6f935-8eb7-4472-a02e-3248c0041920",
       "configuredAt": 1793089091578
@@ -595,7 +602,7 @@
           "output": 30,
           "cacheRead": 0.5
         },
-        "description": "Older generation workhorse model."
+        "description": "Legacy model for coding and everyday work."
       },
       "configuredModelId": "82d9d781-3836-442f-b4b9-046b6aa2493d",
       "configuredAt": 1793089091578
@@ -628,7 +635,7 @@
           "output": 12,
           "cacheRead": 0.2
         },
-        "description": "Older balanced model for straightforward work."
+        "description": "Legacy balanced model for agentic coding."
       },
       "configuredModelId": "a61da389-6d98-4aa6-a654-ce216c53459a",
       "configuredAt": 1793089091578
@@ -661,7 +668,7 @@
           "output": 1.2,
           "cacheRead": 0.02
         },
-        "description": "Older fast and efficient model."
+        "description": "Legacy fast model for simpler tasks."
       },
       "configuredModelId": "a59b7967-2224-4a29-a831-c2cb14fe6a1b",
       "configuredAt": 1793089091578
@@ -3961,39 +3968,6 @@
       "configuredAt": 1794562765903
     },
     {
-      "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
-      "info": {
-        "id": "gpt-5.5",
-        "displayName": "5.5",
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "pdf"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 1050000,
-          "output": 128000,
-          "input": 922000
-        },
-        "reasoning": true,
-        "toolCall": true,
-        "releaseDate": "2026-04-23",
-        "cost": {
-          "input": 5,
-          "output": 30,
-          "cacheRead": 0.5
-        },
-        "description": "Legacy coding model."
-      },
-      "configuredModelId": "9c3685de-18a3-43ab-b054-23a167de2911",
-      "configuredAt": 1794841864506
-    },
-    {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
         "id": "openrouter/inclusionai/ling-3.2-flash:free",
@@ -4118,6 +4092,40 @@
       },
       "configuredModelId": "2e72b29f-1e63-4b19-a47a-4599e77d8046",
       "configuredAt": 1794911759913
+    },
+    {
+      "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
+      "info": {
+        "id": "gpt-6.1-terra",
+        "displayName": "6.1 Terra",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-10-26",
+        "cost": {
+          "input": 0.25,
+          "output": 1.25,
+          "cacheRead": 0.05,
+          "cacheWrite": 0.3125
+        },
+        "description": "Efficient model that excels at visual understanding and computer use."
+      },
+      "configuredModelId": "9683c856-b242-47cb-b23d-685371891d94",
+      "configuredAt": 1794993028418
     }
   ],
   "backends": {
