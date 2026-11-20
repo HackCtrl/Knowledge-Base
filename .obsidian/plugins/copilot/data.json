@@ -2215,15 +2215,6 @@
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
-        "id": "openrouter/x-ai/grok-build-0.1",
-        "displayName": "openrouter/Grok Build 0.1"
-      },
-      "configuredModelId": "a25fb575-5642-4673-8cfb-901747e611ce",
-      "configuredAt": 1794414841585
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
         "id": "openrouter/~x-ai/grok-latest",
         "displayName": "openrouter/Grok Latest"
       },
@@ -2480,15 +2471,6 @@
         "displayName": "openrouter/Llama 3.1 Euryale 70B v2.2"
       },
       "configuredModelId": "ac2691b5-0411-4497-93ab-756bfd6c9e2c",
-      "configuredAt": 1794414841587
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
-        "id": "openrouter/meta-llama/llama-3.2-1b-instruct",
-        "displayName": "openrouter/Llama 3.2 1B Instruct"
-      },
-      "configuredModelId": "8d5f0eaa-5202-4350-8af2-339739e45c7f",
       "configuredAt": 1794414841587
     },
     {
@@ -3083,15 +3065,6 @@
         "displayName": "openrouter/Nex-N2.5-Pro"
       },
       "configuredModelId": "256bd0ff-2d9c-4eb3-8787-8c30e841256e",
-      "configuredAt": 1794414841590
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
-        "id": "openrouter/cohere/north-mini-code:free",
-        "displayName": "openrouter/North Mini Code (free)"
-      },
-      "configuredModelId": "85b48913-676a-4b7e-9e5a-f20c9d2897c1",
       "configuredAt": 1794414841590
     },
     {
@@ -3889,15 +3862,6 @@
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
-        "id": "openrouter/thinkingmachines/inkling-2-small:free",
-        "displayName": "openrouter/Inkling 2 Small (free)"
-      },
-      "configuredModelId": "a48e92b3-850d-4e3a-950d-08df088003dd",
-      "configuredAt": 1794414841663
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
         "id": "openrouter/kt/midm-k-3.0-pro",
         "displayName": "openrouter/Mi:dm K 3.0 Pro"
       },
@@ -4042,15 +4006,6 @@
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
-        "id": "opencode/inkling-2-small-free",
-        "displayName": "opencode/Inkling 2 Small Free"
-      },
-      "configuredModelId": "88feacf3-43ff-42d0-ac12-637c64610eca",
-      "configuredAt": 1794911759913
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
         "id": "opencode/longcat-2.5-free",
         "displayName": "opencode/LongCat 2.5 Free"
       },
@@ -4152,6 +4107,33 @@
       },
       "configuredModelId": "352f8d2d-258d-4264-9825-8999a2c69e32",
       "configuredAt": 1795017015924
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "opencode/tidepool-alpha-free",
+        "displayName": "opencode/Tidepool Alpha Free"
+      },
+      "configuredModelId": "6525e977-1c1a-4f95-9cc0-abdedc60deb6",
+      "configuredAt": 1795154117827
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "openrouter/google/gemini-4-neon",
+        "displayName": "openrouter/Gemini 4 Neon"
+      },
+      "configuredModelId": "59e2b078-4878-4286-80e3-3ac540e4cc0c",
+      "configuredAt": 1795154117828
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "openrouter/mistralai/pixtral-large-2502",
+        "displayName": "openrouter/Pixtral Large (25.02)"
+      },
+      "configuredModelId": "bf7fb0c3-f0a5-4948-8974-10484fd828bc",
+      "configuredAt": 1795157035543
     }
   ],
   "backends": {
