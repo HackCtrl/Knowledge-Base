@@ -317,7 +317,7 @@
   "inlineEditCommands": [],
   "projectList": [],
   "lastDismissedVersion": "4.0.20",
-  "lastShownStartupVersion": "4.0.20",
+  "lastShownStartupVersion": "4.1.0",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -468,7 +468,7 @@
           "cacheRead": 0.1,
           "cacheWrite": 2.5
         },
-        "description": "Previous generation model for coding and everyday work."
+        "description": "Latest workhorse model for coding and everyday work."
       },
       "configuredModelId": "82fa2176-6bb5-4561-8c1e-2fe8d659a98c",
       "configuredAt": 1793089091577
@@ -501,7 +501,7 @@
           "output": 50,
           "cacheRead": 1
         },
-        "description": "Previous generation model for complex coding and professional work."
+        "description": "Frontier intelligence for the most demanding work."
       },
       "configuredModelId": "e57ee893-57a1-4de1-808e-8333600a31cd",
       "configuredAt": 1793089091577
@@ -535,7 +535,7 @@
           "cacheRead": 0.2,
           "cacheWrite": 2.5
         },
-        "description": "Legacy model for coding and everyday work."
+        "description": "Previous generation workhorse model."
       },
       "configuredModelId": "5bd6f935-8eb7-4472-a02e-3248c0041920",
       "configuredAt": 1793089091578
@@ -602,7 +602,7 @@
           "output": 30,
           "cacheRead": 0.5
         },
-        "description": "Legacy model for coding and everyday work."
+        "description": "Older generation workhorse model."
       },
       "configuredModelId": "82d9d781-3836-442f-b4b9-046b6aa2493d",
       "configuredAt": 1793089091578
@@ -635,7 +635,7 @@
           "output": 12,
           "cacheRead": 0.2
         },
-        "description": "Legacy balanced model for agentic coding."
+        "description": "Older balanced model for straightforward work."
       },
       "configuredModelId": "a61da389-6d98-4aa6-a654-ce216c53459a",
       "configuredAt": 1793089091578
@@ -668,7 +668,7 @@
           "output": 1.2,
           "cacheRead": 0.02
         },
-        "description": "Legacy fast model for simpler tasks."
+        "description": "Older fast and efficient model."
       },
       "configuredModelId": "a59b7967-2224-4a29-a831-c2cb14fe6a1b",
       "configuredAt": 1793089091578
@@ -4096,8 +4096,8 @@
     {
       "providerId": "73d3520b-d360-42e2-afa4-4d48c34468a2",
       "info": {
-        "id": "gpt-6.1-terra",
-        "displayName": "6.1 Terra",
+        "id": "gpt-5.5",
+        "displayName": "5.5",
         "modalities": {
           "input": [
             "text",
@@ -4115,17 +4115,16 @@
         },
         "reasoning": true,
         "toolCall": true,
-        "releaseDate": "2026-10-26",
+        "releaseDate": "2026-04-23",
         "cost": {
-          "input": 0.25,
-          "output": 1.25,
-          "cacheRead": 0.05,
-          "cacheWrite": 0.3125
+          "input": 5,
+          "output": 30,
+          "cacheRead": 0.5
         },
-        "description": "Efficient model that excels at visual understanding and computer use."
+        "description": "Legacy coding model."
       },
-      "configuredModelId": "9683c856-b242-47cb-b23d-685371891d94",
-      "configuredAt": 1794993028418
+      "configuredModelId": "f347758d-d763-4160-8429-c9dc1d3f3a0c",
+      "configuredAt": 1795424182280
     }
   ],
   "backends": {
