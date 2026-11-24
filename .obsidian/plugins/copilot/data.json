@@ -2269,15 +2269,6 @@
     {
       "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
       "info": {
-        "id": "openrouter/tencent/hy3-preview",
-        "displayName": "openrouter/Hy3 preview"
-      },
-      "configuredModelId": "01ac0dec-8719-4378-8436-173e1eadbe8b",
-      "configuredAt": 1794414841585
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
         "id": "openrouter/tencent/hy4",
         "displayName": "openrouter/Hy4"
       },
@@ -2534,15 +2525,6 @@
         "displayName": "openrouter/Llama-3.3-70B-Instruct"
       },
       "configuredModelId": "e952feb4-9118-4ca6-94b0-8f261cd7282c",
-      "configuredAt": 1794414841587
-    },
-    {
-      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
-      "info": {
-        "id": "openrouter/meituan/longcat-2.0",
-        "displayName": "openrouter/LongCat-2.0"
-      },
-      "configuredModelId": "7d8acad3-dbc6-4a7e-9ed8-e43beaa9347e",
       "configuredAt": 1794414841587
     },
     {
@@ -4134,6 +4116,24 @@
       },
       "configuredModelId": "bf7fb0c3-f0a5-4948-8974-10484fd828bc",
       "configuredAt": 1795157035543
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "openrouter/radixark/daisyrose-27b",
+        "displayName": "openrouter/DaisyRose 27B"
+      },
+      "configuredModelId": "aea5673f-bbde-4e96-9ff1-0cffc6299635",
+      "configuredAt": 1795286082299
+    },
+    {
+      "providerId": "5391eef7-3b43-468d-b1d9-c4ff68ee2850",
+      "info": {
+        "id": "openrouter/thinkingmachines/inkling-2-mini",
+        "displayName": "openrouter/Inkling 2 Mini"
+      },
+      "configuredModelId": "ed057283-7333-4023-bdb9-ec5832142814",
+      "configuredAt": 1795286082300
     }
   ],
   "backends": {
